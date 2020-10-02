@@ -115,8 +115,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 
+#header .social-links .linkedin:hover {
+  background:#0e76a8 ;
+}
 #header .social-links a:hover {
-  background: #18d26e;
+  background: green ;
 }
 
 @media (max-width: 992px) {
