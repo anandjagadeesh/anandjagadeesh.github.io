@@ -130,6 +130,15 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links .facebook:hover {
   background: #4267B2 ;
 }
+#header .social-links .instagram:hover {
+  background: #DD2A7B ;
+}
+#header .social-links .skype:hover {
+  background: #00aff0 ;
+}
+#header .social-links .youtube:hover {
+  background: #FF0000 ;
+}
 
 @media (max-width: 992px) {
   #header h1 {
