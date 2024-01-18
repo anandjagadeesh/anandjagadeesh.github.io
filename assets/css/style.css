@@ -285,7 +285,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-top .container {
   display: flex;
-  align-items: left;
+  align-items: center;
+  text-align: left;
 }
 
 #header.header-top .nav-menu {
