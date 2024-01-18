@@ -120,13 +120,14 @@ h1, h2, h3, h4, h5, h6 {
   #header .container {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     text-align: left;
   }
 }
 
 .nav-menu {
   margin-top: 35px;
+  align-items: center;
 }
 
 .nav-menu ul {
@@ -276,6 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-top .social-links, #header.header-top h2 {
   display: none;
+  text-align: left;
 }
 
 #header.header-top h1 {
