@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
@@ -17,9 +16,9 @@
     
     <meta http-equiv="Cache-Control" content="max-age=432000, must-revalidate">
     
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="https://anandj.xyz/assets/img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="https://anandj.xyz/assets/img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://anandj.xyz/assets/img/apple-touch-icon.png">
 
     <meta property="og:title" content="Anand Jagadeesh">
     <meta property="og:description" content="Anand Jagadeesh's personal website. Anand is an AI/ML enthusiast">
@@ -111,12 +110,11 @@
 
     <section id="contact" role="application" aria-labelledby="contactTitle">
         <div class="container">
-            <div class="loader"></div>
-            <iframe
+            <div class="loader d-none" id="loader"></div>
+            <iframe id="contactsIframe"
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdCvOIPfRXXw23edF6hbmosevwqIq-WSrJUG88axHQuAghbbQ/viewform?embedded=true"
                 width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0"
-                scrolling="yes" style="border:none;" loading="lazy" aria-label="Contact Form"
-            >Loading…</iframe>
+                scrolling="yes" style="border:none;" loading="lazy" aria-label="Contact Form"></iframe>
         </div>
     </section>
 
@@ -138,6 +136,17 @@
             }
         });
     </script>
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var loader = document.getElementById("loader");
+            var iframe = document.getElementById("contactsIframe");
+            iframe.addEventListener("loadstart", function () {
+                loader.classList.remove("d-none");
+            });
+            iframe.addEventListener("load", function () {
+                loader.classList.add("d-none");
+            });
+        });
+    </script>
 </body>
 </html>
