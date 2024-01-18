@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   z-index: 997;
   overflow-y: auto;
-  justify-content: space-between;
 }
 
 #header * {
@@ -121,7 +120,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
   }
 }
 
@@ -285,6 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-top .container {
   display: flex;
+  justify-content: space-between;
 }
 
 #header.header-top .nav-menu {
