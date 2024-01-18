@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 25px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #header h2 span {
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -207,13 +207,13 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.8);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
-  border: 2px solid rgba(255, 255, 255, 0.01);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   text-decoration: none;
 }
 
@@ -402,7 +402,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .contact .info-box i.bx {
@@ -411,7 +411,7 @@ section .container {
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .contact .info-box h3 {
