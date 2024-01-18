@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-display: swap;
   background-color: #003340;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   position: relative;
   background: transparent;
 }
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
   position: relative;
   height: 100vh;
   display: flex;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header * {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
 }
 
 #header h1 {
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1;
   display: inline-block;
   text-decoration: none;
@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   border-bottom: 2px solid #0096ed;
   padding-bottom: 6px;
 }
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.15);
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #0096ed;
   visibility: hidden;
   width: 0px;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.1s ease-in-out 0s;
   text-decoration: none;
 }
 
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9999;
   overflow-y: auto;
   background: rgba(0, 0, 0, 0.7);
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.1s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(9, 9, 9, 0.4);
   overflow: hidden;
   display: none;
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.1s;
   text-decoration: none;
 }
 
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -321,7 +321,7 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.1s;
   z-index: 2;
 }
 
@@ -354,7 +354,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   font-family: "Poppins", sans-serif;
   font-display: swap;
 }
@@ -376,7 +376,7 @@ section .container {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-display: swap;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .about-me .content h3 {
@@ -429,7 +429,7 @@ section .container {
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -443,7 +443,7 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
@@ -469,33 +469,4 @@ section .container {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.credits {
-  position: fixed;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
-  z-index: 1;
-}
-
-@media (max-width: 992px) {
-  .credits {
-    text-align: center;
-    padding: 10px;
-    background: #333333;
-  }
-}
-
-.credits a {
-  color: #0096ed;
-  transition: 0.3s;
-}
-
-.credits a:hover {
-  color: #fff;
 }
