@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  font-display: swap;
   background-color: #003340;
   color: #fff;
   position: relative;
@@ -34,6 +35,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  font-display: swap;
 }
 
 #header {
@@ -58,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 #header h1 a, #header h1 a:hover {
@@ -150,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   font-weight: 400;
   text-decoration: none;
 }
@@ -352,6 +356,7 @@ section .container {
   text-transform: uppercase;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 .section-title h2::after {
@@ -370,6 +375,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   color: #fff;
 }
 
