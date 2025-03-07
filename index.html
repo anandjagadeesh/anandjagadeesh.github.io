@@ -141,10 +141,17 @@
     </script>
     <script>
         document.addEventListener("contextmenu", e => e.preventDefault(), false);
+        document.getElementById("contact").addEventListener("contextmenu", (e) => e.preventDefault());
         document.addEventListener("keydown", e => {
             if (e.ctrlKey || e.keyCode==123) {
             e.stopPropagation();
             e.preventDefault();
+            }
+        });
+        document.getElementById("contact").addEventListener("keydown", (e) => {
+            if (e.ctrlKey || e.keyCode == 123) {
+                e.stopPropagation();
+                e.preventDefault();
             }
         });
     </script>
