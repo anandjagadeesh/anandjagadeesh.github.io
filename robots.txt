@@ -1,0 +1,16 @@
+User-agent: Googlebot
+Allow: /$
+Disallow: /
+
+User-agent: Bingbot
+Allow: /$
+Disallow: /
+
+User-agent: DuckDuckBot
+Allow: /$
+Disallow: /
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://anandj.xyz/sitemap.xml
